@@ -10,6 +10,12 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+const teamMembers = [
+    // manager gets stored 
+    // engineer gets stored
+    // intern gets stored
+];
+
 function createManager(){
     inquirer.prompt([
         {
